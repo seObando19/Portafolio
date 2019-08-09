@@ -1,0 +1,100 @@
+body
+{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+header .contenedor
+{
+    display: flex;
+    justify-content: space-between;
+}
+header ul
+{
+    display: flex;
+}
+header li
+{
+    list-style: none;
+    margin-right: 15px;
+}
+a
+{
+    text-decoration: none;
+}
+.contenedor
+{
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+header
+{
+    background: linear-gradient(rgba(84,93,220,.9),rgba(96,171,245,.9)),url(../imagenes/fondo.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+#contenedor-titulo-flex
+{
+    display: flex;
+    justify-content: center;
+    margin:18vh 0;
+    max-width: 1580;
+    width: 100%;
+}
+h1
+{
+    font-size: 60px;
+    color: #fff;
+    margin: 0;
+}
+h2
+{
+    font-size: 25px;
+    color: #fff;    
+}
+.contenedor-titulo
+{
+    text-align: center;
+}
+.contenedor-titulo a, #sobre-mi a
+{
+    font-size: 14px;
+    color: #fff;
+    background: #5cb8ff;
+    padding: 14px  24px;
+    display: inline-block;
+    width: 128px;
+}
+p.logo
+{
+    color: #fff;
+    font-size: 20px;
+}
+nav ul li a
+{
+    color: #fff;
+    font-size: 20px;
+}
+
+/*SECCION SOBRE MI*/
+h3
+{
+    text-align: center;
+    font-size: 55px;
+    font-weight:bold;
+}
+.contenedor-sobremi img
+{
+    width: 400px;
+    height: 400px;
+}
+#sobre-mi .contenedor-sobremi
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+#sobre-mi .texto
+{
+    width: 42%;
+}
