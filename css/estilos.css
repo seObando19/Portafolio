@@ -98,3 +98,52 @@ h3
 {
     width: 42%;
 }
+
+/*SECCION SERVICIOS*/
+.contenedor-servicios
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    color: #fff;
+}
+.servicio
+{
+    width: 24%;
+    padding: 34px 30px 38px 30px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    position: relative;   
+}
+.servicio h4
+{
+    font-size: 30px;
+    margin: 0;
+}
+.servicio p
+{
+    margin-bottom: 20px;
+    height: 194px;
+}
+.contenedor-servicios .violeta
+{
+    background-image: linear-gradient(to top, #5055df,#6d68f3);
+    box-shadow:0 12px 30px 0 rgba(80, 85, 223, .37);    
+}
+.contenedor-servicios .celeste
+{
+    background: linear-gradient(to top,#40a8f9,#5cb8ff);
+    box-shadow: 0 12px 30 0 rgba(86, 163, 222, .3):
+}
+.ondas
+{
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    height: 200px;
+    width: 360px;
+}
+.icono
+{
+    float: right;
+}
