@@ -147,3 +147,8 @@ h3
 {
     float: right;
 }
+
+/*ARRANCA SESION MIS TRABAJOS*/
+button.owl-prev, button.owl-next {
+    font-size: 40px !important;
+}
