@@ -152,3 +152,33 @@ h3
 button.owl-prev, button.owl-next {
     font-size: 40px !important;
 }
+span {
+    color:#71bcfa;
+}
+#mis-trabajos img{
+    width:200px;
+    height: 200px;
+}
+
+/*Seccion por que trabajar conmigo*/
+.contenedor-trabajar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#por-que-trabajar .item{
+    width: 28%;
+    text-align: center;
+}
+#por-que-trabajar li{    
+    list-style: none;
+}
+#por-que-trabajar li:nth-child(2){
+    font-weight: bold;
+    font-size: 19px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+#por-que-trabajar li:nth-child(3){
+    line-height:31px;
+}
